@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de Grabación</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header { background-color: #333; color: white; padding: 1em 0; text-align: center; }
+        section { padding: 2em; }
+        .photo-gallery img { width: 100%; max-width: 300px; margin: 1em; }
+        .audio-samples audio { display: block; margin: 1em 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudio de Grabación</h1>
+    </header>
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenido a nuestro estudio de grabación. Aquí puedes encontrar información sobre nuestros servicios, ver fotos de nuestros espacios y escuchar algunos de los trabajos que hemos realizado.</p>
+    </section>
+    <section class="photo-gallery">
+        <h2>Galería de Fotos</h2>
+        <!-- Añade tus fotos aquí -->
+        <img src="foto1.jpg" alt="Foto del estudio">
+        <img src="foto2.jpg" alt="Foto del equipo">
+    </section>
+    <section class="audio-samples">
+        <h2>Ejemplos de Audio</h2>
+        <!-- Añade tus audios aquí -->
+        <audio controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <audio controls>
+            <source src="audio2.mp
